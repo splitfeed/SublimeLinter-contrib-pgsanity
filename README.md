@@ -1,7 +1,7 @@
 SublimeLinter-contrib-pgsanity
 ================================
 
-[![Build Status](https://khancdn.eu/badges.php?service=https%3A%2F%2Ftravis-ci.org%2Fsplitfeed%2FSublimeLinter-contrib-pgsanity.png%3Fbranch%3Dmaster)](https://travis-ci.org/splitfeed/SublimeLinter-contrib-pgsanity)
+[![Build Status](https://travis-ci.org/splitfeed/SublimeLinter-contrib-pgsanity.svg?branch=master)](https://travis-ci.org/splitfeed/SublimeLinter-contrib-pgsanity)
 
 This linter plugin for [SublimeLinter][docs] provides an interface to [pgsanity](https://github.com/markdrago/pgsanity). It will be used with files that have the “sql” or "PostgreSQL" syntax.
 
