@@ -2,8 +2,8 @@
 # linter.py
 # Linter for SublimeLinter3, a code checking framework for Sublime Text 3
 #
-# Written by Niklas
-# Copyright (c) 2014 Niklas
+# Written by Niklas Nilsson
+# Copyright (c) 2014 Niklas Nilsson
 #
 # License: MIT
 #
@@ -23,7 +23,7 @@ class Pgsanity(Linter):
     # version_args = '--version'
     # version_re = r'(?P<version>\d+\.\d+\.\d+)'
     # version_requirement = '>= 1.0'
-    regex = r'line (?P<line>\d+): ERROR: (?P<message>.+)'
+    regex = r'line.+?(?P<line>\d+): ERROR: (?P<message>.+)'
     multiline = False
     line_col_base = (1, 1)
     tempfile_suffix = None
